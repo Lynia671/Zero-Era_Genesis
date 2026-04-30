@@ -1,0 +1,7 @@
+{
+    "name": "zero-iron",
+    "color": "#435a68",
+    "description": "A common mineral resource, but with very poor material strength.\nUsed for basic industrial manufacturing at any time.",
+    "hardness": 4,
+    "cost": 0.6
+}
