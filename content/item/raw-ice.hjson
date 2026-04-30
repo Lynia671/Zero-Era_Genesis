@@ -1,0 +1,7 @@
+{
+    "name": "raw-ice",
+    "color": "#a0d8ff",
+    "description": "The crude ice collected from extreme cold ice layers or snow walls must be heated before it can be turned into usable liquid water.",
+    "hardness": 2,
+    "cost": 0.1
+}
