@@ -1,0 +1,13 @@
+{
+    
+    "name":"zeg",
+    "displayName":"Zero-Era:Genesis",
+    "main": "scripts/main.js",
+    "scripts": true,
+    "author":"Lynia671/Crystal_Dust671",
+    "description":"",
+    "minGameVersion":"155",
+    "dependencies":[]
+    
+}
+
