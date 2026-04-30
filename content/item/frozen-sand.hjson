@@ -1,0 +1,7 @@
+{
+    "name": "frozen-sand",
+    "description": "Svetton planet's surface commonly found resources. Due to extremely low temperatures, the sand grains are tightly bound and difficult to crush directly.",
+    "handness": 3,
+    "color": "#a0d8ff",
+    "cost": 0.1
+}
