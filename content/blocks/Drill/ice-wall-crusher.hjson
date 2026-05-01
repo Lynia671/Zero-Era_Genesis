@@ -1,0 +1,21 @@
+{
+    "type": "WallCrafter"
+    "name": "ice-wall-crusher"
+    "description": "Crushing walls, produces raw ice at a lower efficiency."
+    "size": 2,
+    "health": 590,
+    "tiers": 2,
+    "drillTime": 80.0,
+    "liquidCapacity": 10.0,
+    "buildTime": 41.6,
+    "attribute": "raw-ice",
+    "output": "raw-ice",
+    "requirements":[
+        "zero-iron/30",
+        "lead/25"
+    ],
+    "buildVisibility": "shown",
+    "shownPlanets": ["Svitton"],
+    "category": "production",
+    "research": "mechanical-drill"
+}
