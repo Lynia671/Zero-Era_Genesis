@@ -1,0 +1,7 @@
+{
+    "name": "aluminum",
+    "description": "It has excellent electrical conductivity and is commonly used in various types of manufacturing."
+    "handness": 0.4,
+    "color": "#dfdfdf"
+    "cost": 0.95,
+}
