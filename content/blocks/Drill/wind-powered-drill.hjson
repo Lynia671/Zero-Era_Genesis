@@ -1,0 +1,21 @@
+{
+    "type": "Drill"
+    "name": "wind-powered-drill"
+    "description": "It utilises wind power to accelerate the rotation of the drilling rig, greatly increasing mining efficiency.",
+    "size": 3,
+    "health": 600,
+    "tier": 3
+    "drillTime": 100.0,
+    "hardnessDrillMultiplier": 22.0,
+    "rotateSpeed": 9.0,
+    "liquidCapacity": 10.0,
+    "buildTime": 19.1,
+    "requirements":[
+        "zero-iron/55",
+        "lead/40"
+    ],
+    "ambientSound": "loopDrill",
+    "buildVisibility": "shown",
+    "shownPlanets": ["Svitton"],
+    "category": "production",
+}
