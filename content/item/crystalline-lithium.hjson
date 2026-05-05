@@ -1,7 +1,7 @@
 {
     "name": "crystalline-lithium",
-    "description": "It is a rapidly consumable item in every aspect, enough to reflect its importance."
+    "description": "It is a rapidly consumable item in every aspect, enough to reflect its importance.",
     "hardness": 3,
-    "color": "#dfdfdf"
-    "cost": 0.95,
+    "color": "#dfdfdf",
+    "cost": 0.95
 }
