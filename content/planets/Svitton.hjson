@@ -1,4 +1,4 @@
-localizedName: svitton
+localizedName: Svitton
 description: A massive, dark world captured by the Serpulo-Erekir sun centuries ago, Zeg is locked in a perpetual state of extreme cold. Its crushing atmospheric pressure and dense cloud layers trap violent, unending blizzards that scour the surface, with winds howling constantly in shifting gales. Temperatures never climb above -97°C, and plunge as low as -179°C in the long shadows. With over 73% of its crust permanently sealed under glacial ice and compacted snow, sunlight barely pierces the thick haze, casting the planet in an eternal, dim twilight. Despite its crushing mass and hostile climate, factions have already begun to dig into the frozen crust... unaware of what might lie dormant beneath the ice.
 alwaysUnlocked: true
 //launchMusic: zegLand
@@ -6,7 +6,7 @@ mesh: [
 	{
 		// 极寒深渊/暗冰岩 (最低海拔, 纯黑蓝, 强对比阴影)
 		type: NoiseMesh
-		planet: svitton
+		planet: Svitton
 		divisions: 5
 		radius: 1.30
 		seed: 35
@@ -21,7 +21,7 @@ mesh: [
 	{
 		// 万年冻土/基岩冰层 (中低海拔, 幽蓝色过渡)
 		type: NoiseMesh
-		planet: svitton
+		planet: Svitton
 		divisions: 5
 		seed: 54
 		radius: 1.36
@@ -36,7 +36,7 @@ mesh: [
 	{
 		// 压实冰盖/裂隙雪原 (中海拔, 钢蓝色主视觉)
 		type: NoiseMesh
-		planet: svitton
+		planet: Svitton
 		divisions: 5
 		seed: 104
 		radius: 1.48
@@ -51,7 +51,7 @@ mesh: [
 	{
 		// 积雪峰顶/高压冰脊 (高海拔, 霜白色凸起)
 		type: NoiseMesh
-		planet: svitton
+		planet: Svitton
 		seed: 80
 		divisions: 5
 		color1: 96b4cc
@@ -65,7 +65,7 @@ mesh: [
 	{
 		// 高空霜雾/大气辉光 (极边缘, 半透明冷白漫反射)
 		type: NoiseMesh
-		planet: svitton
+		planet: Svitton
 		divisions: 5
 		seed: 34
 		radius: 1.68
@@ -81,7 +81,7 @@ mesh: [
 cloudMesh: [
 	{
 		type: HexSkyMesh
-		planet: svitton
+		planet: Svitton
 		speed: 2.05
 		radius: 0.15
 		divisions: 5
@@ -93,7 +93,7 @@ cloudMesh: [
 	}
 	{
 		type: HexSkyMesh
-		planet: svitton
+		planet: Svitton
 		speed: 1.87
 		radius: 0.12
 		divisions: 5
@@ -104,7 +104,7 @@ cloudMesh: [
 	}
 	{
 		type: HexSkyMesh
-		planet: svitton
+		planet: Svitton
 		speed: 1.60
 		radius: 0.10
 		divisions: 5
