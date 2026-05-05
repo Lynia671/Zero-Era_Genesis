@@ -1,0 +1,35 @@
+plugins {
+    id "java"
+}
+
+sourceCompatibility = 8
+targetCompatibility = 8
+
+repositories {
+    mavenCentral()
+    maven { url "https://www.jitpack.io" }
+    maven { url "https://raw.githubusercontent.com/Anuken/MindustryRepo/master/repository" }
+}
+
+dependencies {
+    compileOnly "com.github.Anuken:Arc:v146"
+    compileOnly "com.github.Anuken:Mindustry:v146"
+}
+
+jar {
+    archiveFileName = "zeg.jar"
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    } {
+        exclude "META-INF/proguard/**"
+        exclude "META-INF/*.SF"
+        exclude "META-INF/*.DSA"
+        exclude "META-INF/*.RSA"
+    }
+}
+
+task deploy(type: Copy) {
+    dependsOn jar
+    from "build/libs/zeg.jar"
+    into "../../Mindustry/android/assets/mods"
+}
