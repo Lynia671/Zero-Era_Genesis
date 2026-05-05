@@ -1,13 +1,9 @@
 {
-    
-    "name":"zeg",
-    "displayName":"Zero-Era:Genesis",
-    "main": "scripts/main.js",
-    "scripts": true,
-    "author":"Lynia671/Crystal_Dust671",
-    "description":"Living in under the zero.",
-    "minGameVersion":"155",
-    "dependencies":[]
-    
+    "name": "zeg",
+    "displayName": "Zero-Era:Genesis",
+    "main": "zeg.ZegMod",
+    "author": "Lynia671/Crystal_Dust671",
+    "description": "Living in under the zero.",
+    "minGameVersion": "155",
+    "dependencies": []
 }
-
