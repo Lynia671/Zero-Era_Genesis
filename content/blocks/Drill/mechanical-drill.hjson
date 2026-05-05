@@ -1,10 +1,10 @@
 {
-    "type": "Drill"
-    "name": "mechanical-drilling"
+    "type": "Drill",
+    "name": "mechanical-drill",
     "description": "The drill bit is of excellent craftsmanship, but the speed is not like...",
     "size": 3,
     "health": 600,
-    "tier": 2
+    "tier": 2,
     "drillTime": 100.0,
     "hardnessDrillMultiplier": 30.0,
     "rotateSpeed": 3.0,
@@ -17,5 +17,5 @@
     "ambientSound": "loopDrill",
     "buildVisibility": "shown",
     "shownPlanets": ["Svitton"],
-    "category": "production",
+    "category": "production"
 }
