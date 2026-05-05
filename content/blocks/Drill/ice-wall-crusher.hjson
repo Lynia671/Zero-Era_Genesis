@@ -1,7 +1,7 @@
 {
-    "type": "WallCrafter"
-    "name": "ice-wall-crusher"
-    "description": "Crushing walls, produces raw ice at a lower efficiency."
+    "type": "WallCrafter",
+    "name": "ice-wall-crusher",
+    "description": "Crushing walls, produces raw ice at a lower efficiency.",
     "size": 2,
     "health": 590,
     "tiers": 2,
