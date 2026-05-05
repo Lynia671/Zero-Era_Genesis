@@ -1,0 +1,164 @@
+name: Svitton
+description: A massive, dark world captured by the Serpulo-Erekir sun centuries ago, Zeg is locked in a perpetual state of extreme cold. Its crushing atmospheric pressure and dense cloud layers trap violent, unending blizzards that scour the surface, with winds howling constantly in shifting gales. Temperatures never climb above -97°C, and plunge as low as -179°C in the long shadows. With over 73% of its crust permanently sealed under glacial ice and compacted snow, sunlight barely pierces the thick haze, casting the planet in an eternal, dim twilight. Despite its crushing mass and hostile climate, factions have already begun to dig into the frozen crust... unaware of what might lie dormant beneath the ice.
+alwaysUnlocked: true
+launchMusic: zegLand
+mesh: [
+	{
+		// 深层暗岩/冰蚀谷 (最低海拔, 深邃阴影)
+		type: NoiseMesh
+		planet: zeg
+		divisions: 5
+		radius: 0.82
+		seed: 35
+		color1: 15171d
+		color2: 0a0c10
+		octaves: 5
+		persistence: 0.85
+		mag: 1.4
+		thresh: 0.35
+		scl: 3
+	}
+	{
+		// 冻土基岩/中层冰原 (中等海拔, 过渡地带)
+		type: NoiseMesh
+		planet: zeg
+		divisions: 5
+		seed: 54
+		radius: 0.92
+		color1: 2c303d
+		color2: 1e212b
+		octaves: 4
+		persistence: 0.9
+		scl: 1.8
+		thresh: 0.45
+		mag: 1.1
+	}
+	{
+		// 冰川裂隙/起伏冰盖 (较高海拔, 粗糙质感)
+		type: NoiseMesh
+		planet: zeg
+		divisions: 5
+		seed: 104
+		radius: 1.04
+		color1: 4a5868
+		color2: 36424f
+		octaves: 6
+		persistence: 0.7
+		scl: 1.2
+		thresh: 0.4
+		mag: 1.6
+	}
+	{
+		// 积雪峰顶/高压冰脊 (最高海拔, 视觉凸起)
+		type: NoiseMesh
+		planet: zeg
+		seed: 80
+		divisions: 5
+		color1: 7a8c9e
+		color2: 5c6d7f
+		radius: 1.18
+		octaves: 8
+		persistence: 0.65
+		mag: 1.2
+		thresh: 0.55
+	}
+	{
+		// 高空冰晶晕/大气漫反射 (极边缘, 模拟厚重大气下的辉光)
+		type: NoiseMesh
+		planet: zeg
+		divisions: 5
+		seed: 34
+		radius: 1.35
+		color1: a0b4c440
+		color2: 6b7d8d20
+		octaves: 4
+		persistence: 0.5
+		mag: 0.8
+		thresh: 0.65
+		scl: 0.8
+	}
+]
+cloudMesh: [
+	{
+		type: HexSkyMesh
+		planet: zeg
+		speed: 1.8
+		radius: 0.28
+		divisions: 5
+		color: d0d8e4cc
+		octaves: 6
+		persistence: 0.4
+		scl: 1.2
+		thresh: 0.5
+	}
+	{
+		type: HexSkyMesh
+		planet: zeg
+		speed: 1.4
+		radius: 0.24
+		divisions: 5
+		color: b8c2d1b0
+		octaves: 6
+		persistence: 0.5
+		thresh: 0.4
+	}
+	{
+		type: HexSkyMesh
+		planet: zeg
+		speed: 1.1
+		radius: 0.20
+		divisions: 5
+		color: a0aabfaa
+		octaves: 8
+		persistence: 0.6
+		thresh: 0.35
+	}
+]
+generator: {
+	octaves: 3
+	persistence: 0.52
+	scale: 22
+	mag: 0.721
+	thresh: 1.152
+	min: 80
+	max: 120
+	radMin: 220
+	radMax: 600
+	iceChance: 0.73
+	carbonChance: 0.15
+	berylChance: 0
+	ferricChance: 0.12
+}
+orbitRadius: 130
+sectorSize: 3
+allowLaunchSchematics: true
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 13
+orbitSpacing: 1
+radius: 1.6
+minZoom: 1.2
+drawOrbit: true
+atmosphereRadIn: 0.16
+atmosphereRadOut: 0.68
+accessible: true
+updateLighting: false
+sectorSeed: 27290
+bloom: false
+visible: true
+landCloudColor: 8a95a8
+atmosphereColor: 1a2540cc
+iconColor: 4a5a6b
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-zero
+parent: sun
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [zero-iron,raw-ice,frozen-sand]
+waveTeam: green
+tidalLock: true
