@@ -11,5 +11,6 @@ public class ZegMod extends Mod {
     @Override
     public void loadContent() {
         // Load your content here (blocks, items, units, etc.)
+        ZegItems.load();
     }
 }
