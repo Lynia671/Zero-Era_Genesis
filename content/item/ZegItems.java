@@ -5,7 +5,7 @@ import mindustry.type.Item;
 
 public class ThisItems {
     public static Item
-            aluminum;
+            aluminum, bauxite;
 
     public static void load(){
         aluminum = new Item("aluminum", Color.valueOf("dfdfdf")){{  
@@ -13,6 +13,10 @@ public class ThisItems {
             cost = 0.95f;
         }};
 
+        bauxite = new Item("bauxite", Color.valueOf("3b393a")){{  
+            hardness = 0;      // int 类型，0.1 取整为 0  
+            cost = 1.2f;  
+        }};
         
     }
 }
