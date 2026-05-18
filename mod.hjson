@@ -6,4 +6,6 @@
     "description": "Living in under the zero.",
     "minGameVersion": "155",
     "dependencies": []
+    "java": true,
+    "main": "zeg.ZegMod"
 }
