@@ -1,0 +1,11 @@
+{
+	"type": "StaticWall",
+	"name": "frozen-stone-wall",
+	"variants": 2,
+	"variantRegions": 
+		[
+			"frozen-stone-wall1",
+			"frozen-stone-wall2",
+		],
+	"large": "frozen-stone-wall-large"
+}

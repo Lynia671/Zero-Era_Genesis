@@ -1,0 +1,11 @@
+{
+	"type": "StaticWall",
+	"name": "heavy-ice-wall",
+	"variants": 2,
+	"variantRegions": 
+		[
+			"heavy-ice-wall1",
+			"heavy-ice-wall2",
+			],
+	"large": "heavy-ice-wall-large"
+}

@@ -1,0 +1,10 @@
+{
+	"type": "OreBlock",
+	"name": "river-ice",
+	"variant": "1"
+	"variantRegions": 
+		[
+			"river-ice1"
+		],
+	"itemDrop": "raw-ice"
+}
