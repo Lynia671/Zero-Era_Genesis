@@ -1,4 +1,4 @@
-package ThisOneMod.content;
+package zeg.content;
 
 import arc.graphics.Color;
 import arc.math.geom.Vec3;
