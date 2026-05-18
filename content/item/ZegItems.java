@@ -22,6 +22,11 @@ public class ZegItems {
             hardness = 3;  
             cost = 0.95f;  
         }};
+
+        frozenSand = new Item("frozen-sand", Color.valueOf("a0d8ff")){{  
+            hardness = 3;  
+            cost = 0.1f;  
+        }};
         
     }
 }
