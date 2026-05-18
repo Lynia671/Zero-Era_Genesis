@@ -5,7 +5,7 @@ import mindustry.type.Item;
 
 public class ZegItems {
     public static Item
-            aluminum, bauxite, crystallineLithium;
+            aluminum, bauxite, crystallineLithium, frozenSand, rawIce;
 
     public static void load(){
         aluminum = new Item("aluminum", Color.valueOf("dfdfdf")){{  
@@ -25,6 +25,11 @@ public class ZegItems {
 
         frozenSand = new Item("frozen-sand", Color.valueOf("a0d8ff")){{  
             hardness = 3;  
+            cost = 0.1f;  
+        }};
+
+        rawIce = new Item("raw-ice", Color.valueOf("a0d8ff")){{  
+            hardness = 2;  
             cost = 0.1f;  
         }};
         
