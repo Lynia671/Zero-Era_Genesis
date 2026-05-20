@@ -1,4 +1,4 @@
-package ThisOneMod;
+package zeg;
 
 import example.ZegBlocks;
 import example.ZegItems;
@@ -17,6 +17,6 @@ public class ZegMod extends Mod {
         ZegItems.load();
         ZegBlocks.load();
         ZegPlanets.load();
-        ZegItems.load();
+        ZegTechTree.load();
     }
 }
