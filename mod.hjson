@@ -1,11 +1,11 @@
 {
     "name": "zeg",
     "displayName": "Zero-Era:Genesis",
-    "author": "Lynia671/Crystal_Dust671",
+    "author": "Lynia671/Crystal_Dust671 and PIX-12015",
     //Lynia671 and Crystal671 is me
     "description": "Living in under the zero.",
-    "minGameVersion": "155",
+    "minGameVersion": "157",
     "dependencies": []
     "java": true,
-    "main": "ZegMod.ZegMod"
+    "main": "zeg.ZegMod"
 }
