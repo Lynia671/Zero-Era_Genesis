@@ -7,5 +7,5 @@
     "minGameVersion": "155",
     "dependencies": []
     "java": true,
-    "main": "zeg.ZegMod"
+    "main": "ZegMod.ZegMod"
 }
