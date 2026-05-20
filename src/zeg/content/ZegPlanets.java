@@ -40,7 +40,6 @@ public class ZegPlanets {
             allowLaunchToNumbered = false;
             allowLaunchLoadout = false;
             allowSectorInvasion = false;
-            allowWaveSimulation = true;
             allowWaves = true;
             clearSectorOnLose = true;
             prebuildBase = false;
