@@ -20,7 +20,7 @@ import static mindustry.type.ItemStack.with;
 
 public class ZegBlocks {
     public static Block coreZero, windPoweredDrill, mechanicalDrill, iceWallCrusher, heavyIceWall, riverIce,
-            permafrostWall, permafrostDrill, frozenStoneWall, oreZeroIron;
+            permafrostWall, laserDrillingMachine, frozenStoneWall, oreZeroIron;
 
 
     public static void load () {
@@ -107,14 +107,14 @@ public class ZegBlocks {
             shownPlanets.add(ZegPlanets.svitton);
         }};
 
-        permafrostDrill = new BeamDrill("permafrost-drill"){{
+        laserDrillingMachine = new BeamDrill("laser-drilling-machine"){{
             requirements(Category.production, with(ZegItems.zeroIron, 30, Items.lead, 25));
 
             size = 2;
             health = 590;
             drillTime = 80f;
-            tier = 2; // permafrost.hardness 需要 <= 这个值
-            range = 5; // 光束射程（格数）
+            tier = 2;
+            range = 5;
 
             shownPlanets.add(ZegPlanets.svitton);
         }};
