@@ -18,6 +18,8 @@
 
 https://github.com/PIX-12015/Zero-Era-Genesis
 
+请勿在此反馈问题
+
 —— 以上文本为 PIX-12015 写下
 
 **This repository has been discontinued (September 2026)**
@@ -25,6 +27,8 @@ https://github.com/PIX-12015/Zero-Era-Genesis
 I, PIX-12015, as a collaborator, have stopped maintaining this repository. The content has been moved to a new repository:
 
 https://github.com/PIX-12015/Zero-Era-Genesis
+
+Please don't report issues here
 
 —— The above text was written by PIX-12015
 
