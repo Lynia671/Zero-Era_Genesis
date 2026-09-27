@@ -3,7 +3,13 @@
     "displayName": "Zero-Era:Genesis",
     "author": "Lynia671/Crystal_Dust671 and PIX-12015",
     //Lynia671 and Crystal671 is me
-    "description": "Living in under the zero.",
+    "description": "This mod has been discontinued (2026-09)
+
+I, PIX-12015, as a collaborator, have stopped maintaining this mod. The content has been moved to a new repository:
+
+https://github.com/PIX-12015/Zero-Era-Genesis
+
+—— The above text was written by PIX-12015",
     "minGameVersion": "157",
     "dependencies": []
     "java": true,
