@@ -12,7 +12,6 @@
 
 [===========================]
 
-[!NOTE]
 **本仓库已停止维护（2026-09）**
 
 本人 PIX-12015 作为协作者已停止在本仓库的维护工作，内容已移至新仓库：
@@ -20,6 +19,14 @@
 https://github.com/PIX-12015/Zero-Era-Genesis
 
 —— 以上文本为 PIX-12015 写下
+
+**This repository has been discontinued (September 2026)**
+
+I, PIX-12015, as a collaborator, have stopped maintaining this repository. The content has been moved to a new repository:
+
+https://github.com/PIX-12015/Zero-Era-Genesis
+
+—— The above text was written by PIX-12015
 
 [===========================]
 
